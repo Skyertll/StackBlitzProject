@@ -12,10 +12,13 @@
 
     <button type="button" (click)="share()">
       Share
-   </button>
-   <app-product-alerts
-  [product]="product">
-</app-product-alerts>
+    </button>
+    
+    <app-product-alerts
+      [product]="product" 
+      (notify)="onNotify()">
+    </app-product-alerts>
+    
   </div>
 </h2>
 
