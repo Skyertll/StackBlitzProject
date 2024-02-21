@@ -9,6 +9,7 @@ import { Product } from '../products';
   styleUrl: './product-alerts.component.css'
 })
 export class ProductAlertsComponent {
+  
   @Input() product: Product | undefined;
 
 }
